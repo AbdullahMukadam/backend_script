@@ -1,0 +1,6 @@
+[build]
+  functions = "netlify/functions"
+
+[[functions.schedule]]
+  cron = "*/14 * * * *"  # Every 14 minutes
+  function = "script"  # Name of your function file
