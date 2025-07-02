@@ -1,6 +1,7 @@
 [build]
   functions = "netlify/functions"
 
-[[functions.schedule]]
-  cron = "*/14 * * * *"  # Every 14 minutes
-  function = "fetchData"  # Name of your function file
+[functions]
+  
+[functions.fetchData]
+  schedule = "*/14 * * * *"
