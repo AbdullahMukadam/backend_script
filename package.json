@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@netlify/functions": "^4.1.8",
     "node-fetch": "^3.3.2"
   }
 }
