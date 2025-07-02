@@ -3,4 +3,4 @@
 
 [[functions.schedule]]
   cron = "*/14 * * * *"  # Every 14 minutes
-  function = "script"  # Name of your function file
+  function = "fetchData"  # Name of your function file
